@@ -28,7 +28,7 @@ spec:
       - name: tz-seoul
         hostPath:
           path: /usr/share/zoneinfo/Asia/Seoul
-      - name: login-storage
+      - name: auction-storage
         persistentVolumeClaim:
           claimName: auction-pvc  # PVC 이름
 
