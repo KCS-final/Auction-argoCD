@@ -23,7 +23,7 @@ spec:
         - name: tz-seoul
           mountPath: /etc/localtime
         - name: auction-storage
-          mountPath: /data  # PVC를 마운트할 경로
+          mountPath: /app  # PVC를 마운트할 경로
       volumes:
       - name: tz-seoul
         hostPath:
