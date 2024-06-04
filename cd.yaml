@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: auction
-        image: leeinhong9512/panda-auction:483c6fa7b735cd4c6c083e613ded9c799fcfbabd
+        image: leeinhong9512/panda-auction:b30209f2bfe90cda6791fec808a443e0f1a0786b
         ports:
         - containerPort: 8081  # 애플리케이션이 사용하는 포트
         volumeMounts:
