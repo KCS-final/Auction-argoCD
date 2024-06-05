@@ -5,7 +5,7 @@ metadata:
   labels:
     app: auction
 spec:
-  replicas: 2  # 변경 가능: 원하는 파드 수
+  replicas: 1  # 변경 가능: 원하는 파드 수
   selector:
     matchLabels:
       app: auction
