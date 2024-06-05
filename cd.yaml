@@ -31,7 +31,8 @@ spec:
       - name: auction-storage
         persistentVolumeClaim:
           claimName: auction-pvc  # PVC 이름
-
+      nodeSelector:
+        worker: was  # 노드 셀렉터 추가
         
 
 
