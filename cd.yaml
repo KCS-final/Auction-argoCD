@@ -19,11 +19,6 @@ spec:
         image: leeinhong9512/panda-auction:72e6ce3b23d639652940596ee034afa43e58d843
         ports:
         - containerPort: 8081  # 애플리케이션이 사용하는 포트
-        volumeMounts:
-        - name: tz-seoul
-          mountPath: /etc/localtime
-        - name: auction-storage
-          mountPath: /app  # PVC를 마운트할 경로
       volumes:
       - name: tz-seoul
         hostPath:
