@@ -28,9 +28,6 @@ spec:
       - name: tz-seoul
         hostPath:
           path: /usr/share/zoneinfo/Asia/Seoul
-      - name: auction-storage
-        persistentVolumeClaim:
-          claimName: auction-pvc  # PVC 이름
       nodeSelector:
         worker: was  # 노드 셀렉터 추가
         
